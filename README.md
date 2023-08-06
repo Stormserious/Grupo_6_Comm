@@ -1,11 +1,11 @@
 # Grupo_6_Comm
 
 Descripcion del grupo:
-Storm - Rodrigo Machacaa
-franpa13 - Francisco Paredes
-gonzarraatia - Gonzalo Arratia
-Franco427 - Franco Calatay
-LorenaI3 - Ines Lorena Cari
+Storm - Rodrigo Machaca |
+franpa13 - Francisco Paredes |
+gonzarraatia - Gonzalo Arratia |
+Franco427 - Franco Calatay |
+LorenaI3 - Ines Lorena Cari |
 Fer - Fernando Chambi
 
 Tematica del sitio: Venta de videojuegos
