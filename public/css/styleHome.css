@@ -1,0 +1,182 @@
+body{background: rgba(189,90,90,1);
+    background: -moz-linear-gradient(left, rgba(189,90,90,1) 0%, rgba(101,124,191,1) 41%, rgba(189,73,189,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(189,90,90,1)), color-stop(41%, rgba(101,124,191,1)), color-stop(100%, rgba(189,73,189,1)));
+    background: -webkit-linear-gradient(left, rgba(189,90,90,1) 0%, rgba(101,124,191,1) 41%, rgba(189,73,189,1) 100%);
+    background: -o-linear-gradient(left, rgba(189,90,90,1) 0%, rgba(101,124,191,1) 41%, rgba(189,73,189,1) 100%);
+    background: -ms-linear-gradient(left, rgba(189,90,90,1) 0%, rgba(101,124,191,1) 41%, rgba(189,73,189,1) 100%);
+    background: linear-gradient(to right, rgba(189,90,90,1) 0%, rgba(101,124,191,1) 41%, rgba(189,73,189,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd5a5a', endColorstr='#bd49bd', GradientType=1 );}
+.links{text-decoration:none; color: black}
+
+#cabezera{display: block;width: 1425px; height: 140px;}
+#cabezera ul li{float: left;}
+#cabezera ul{list-style: none; margin: 0px; padding: 0px; font-family: 'Handjet', cursive;}
+#cabezera h3{padding-left: 330px; padding-top: 40px;}
+#game{width: 100px; height: 100px;padding-left: 10px; padding-top: 20px;}
+#usser{width: 30px; height: 30px; padding-left: 190px;padding-top: 50px;} 
+#carro{width: 30px; height: 30px;padding-left: 50px; padding-top: 50px;}
+#cabezera li h5{padding-left: 50px; padding-top: 35px;}
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+#cabezera a:hover{color: rgb(17, 216, 216); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+
+#menu{background: rgba(241,111,92,1);
+    background: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 5%, rgba(248,80,50,1) 37%, rgba(231,56,39,1) 48%, rgba(240,47,23,1) 71%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(5%, rgba(246,41,12,1)), color-stop(37%, rgba(248,80,50,1)), color-stop(48%, rgba(231,56,39,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 5%, rgba(248,80,50,1) 37%, rgba(231,56,39,1) 48%, rgba(240,47,23,1) 71%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 5%, rgba(248,80,50,1) 37%, rgba(231,56,39,1) 48%, rgba(240,47,23,1) 71%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 5%, rgba(248,80,50,1) 37%, rgba(231,56,39,1) 48%, rgba(240,47,23,1) 71%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 5%, rgba(248,80,50,1) 37%, rgba(231,56,39,1) 48%, rgba(240,47,23,1) 71%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#f02f17', GradientType=1 ); 
+    width: 1410px; 
+    height: 52px;
+    }
+#menu ul{list-style: none; margin: 0px; padding: 0px;}
+#menu ul li{float: left;}
+#menu a{display: block; padding: 0px 130px; margin: 5px; padding-top: 0px;} 
+#menu a:hover{color: rgb(0, 255, 0); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+.barra{color: black; padding: 18px 0px 0px 0px;}
+
+#imgbanner{width: 1410px; height: 200px;}
+
+#generos{width: 300px; height: 500px; flex-direction: column; margin-top: 10px;
+margin-bottom: 10px; margin-left: 10px;
+background: rgba(203,96,179,1);
+background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(224,54,181,1) 4%, rgba(69,101,179,1) 54%, rgba(54,217,87,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(4%, rgba(224,54,181,1)), color-stop(54%, rgba(69,101,179,1)), color-stop(100%, rgba(54,217,87,1)));
+background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(224,54,181,1) 4%, rgba(69,101,179,1) 54%, rgba(54,217,87,1) 100%);
+background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(224,54,181,1) 4%, rgba(69,101,179,1) 54%, rgba(54,217,87,1) 100%);
+background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(224,54,181,1) 4%, rgba(69,101,179,1) 54%, rgba(54,217,87,1) 100%);
+background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(224,54,181,1) 4%, rgba(69,101,179,1) 54%, rgba(54,217,87,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#36d957', GradientType=1 );}
+#generos input{width: 200px; padding: 10px; font-weight: 600; margin-top: 10px;}
+#generos ul{font-size: 20px; margin-top: 10px; list-style: disc;}
+#generos ul li{margin: 5px 0px; margin-left: 65px;}
+#generos h3{margin-left: 100px;}
+.filtro{display: none;}
+#buscador{margin-left: 40px;}
+#generos a:hover{color: rgb(17, 216, 216); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#juego1{width: 300px; height: 310px;float: left; margin-top: -500px; margin-left: 500px; 
+    background: rgba(203,96,179,1);
+    background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(4%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+    background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );}
+#imgjuego{width: 200px; height: 200px; margin-left: 10px;}
+#juego1 ul{font-size: 10px; margin-top: 10px; list-style: none;}
+#juego1 ul li {margin: 5px 0px;}
+#juego1 ul li h2{margin-left: 80px;}
+#juego1 ul:hover{color: rgb(7, 2, 5); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+ 
+#juego2{width: 300px; height: 310px;float: left; margin-top: -500px; margin-left: 1000px; 
+    background: rgba(203,96,179,1);
+    background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(4%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+    background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );}
+#imgjuego{width: 200px; height: 200px; margin-left: 10px;}
+#juego2 ul{font-size: 10px; margin-top: 10px; list-style: none;}
+#juego2 ul li {margin: 5px 0px; }
+#juego2 ul li h2{margin-left: 80px;}
+#juego2 ul:hover{color: rgb(7, 2, 5); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#juego3{width: 300px; height: 310px;margin-top: -150px; margin-left: 500px; margin-bottom: 10px;
+    background: rgba(203,96,179,1);
+    background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(4%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+    background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );}
+#imgjuegoA{width: 200px; height: 200px; margin-left: 10px; margin-top: -50px;}
+#juego3 ul{font-size: 10px; margin-top: 10px; list-style: none; float: left; margin-top: -95px;}  
+#juego3 ul li {margin: 5px 0px; }
+#juego3 ul li h2{margin-left: 80px;}
+#juego3 ul:hover{color: rgb(7, 2, 5); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#juego4{width: 300px; height: 310px; margin-top: -319px; margin-left: 1000px; margin-bottom: 10px;
+    background: rgba(203,96,179,1);
+    background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(4%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+    background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 4%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );}
+#imgjuegoB{width: 200px; height: 200px; margin-left: 10px; margin-top: -50px;}
+#juego4 ul{font-size: 10px; margin-top: 10px; list-style: none; float: left; margin-top: -95px;}  
+#juego4 ul li {margin: 5px 0px; }
+#juego4 ul li h2{margin-left: 80px;}
+#juego4 ul:hover{color: rgb(7, 2, 5); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#pagos{width: 1410px; height: 80px; background-color: gray; float: left;}
+#pagos ul{list-style: none; margin: 0px; padding: 0px;}
+#pagos ul li{float: left; padding: 0px 100px;}
+#logos{width: 100px; height: 70px;}
+#logoM{width: 160px; height: 30px; padding-top: 25px;}
+#pagos ul li h3{padding-top: 10px;}
+
+#pieDePagina {width: 1410px; height: 300px; 
+    background: rgba(191,159,191,1);
+background: -moz-linear-gradient(left, rgba(191,159,191,1) 0%, rgba(191,159,191,1) 6%, rgba(189,149,189,1) 12%, rgba(191,91,191,1) 48%, rgba(214,182,214,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(191,159,191,1)), color-stop(6%, rgba(191,159,191,1)), color-stop(12%, rgba(189,149,189,1)), color-stop(48%, rgba(191,91,191,1)), color-stop(100%, rgba(214,182,214,1)));
+background: -webkit-linear-gradient(left, rgba(191,159,191,1) 0%, rgba(191,159,191,1) 6%, rgba(189,149,189,1) 12%, rgba(191,91,191,1) 48%, rgba(214,182,214,1) 100%);
+background: -o-linear-gradient(left, rgba(191,159,191,1) 0%, rgba(191,159,191,1) 6%, rgba(189,149,189,1) 12%, rgba(191,91,191,1) 48%, rgba(214,182,214,1) 100%);
+background: -ms-linear-gradient(left, rgba(191,159,191,1) 0%, rgba(191,159,191,1) 6%, rgba(189,149,189,1) 12%, rgba(191,91,191,1) 48%, rgba(214,182,214,1) 100%);
+background: linear-gradient(to right, rgba(191,159,191,1) 0%, rgba(191,159,191,1) 6%, rgba(189,149,189,1) 12%, rgba(191,91,191,1) 48%, rgba(214,182,214,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9fbf', endColorstr='#d6b6d6', GradientType=1 );}
+#pieDePagina ul{list-style: none; margin: 0px; padding: 5px; padding-left: 20px;}
+#pieDePagina a:hover{color: rgb(55, 19, 122); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#footerIzquierda{float: left; margin: 0px; padding: 0px;}
+
+#footerMedio{ padding-left: 500px; padding-top: 40px;}
+#textoDescarga{padding-left: 30px; padding-top: 40px;}
+#footerMedio ul{list-style: none; margin: 0px; padding: 0px;}
+#footerMedio ul li{padding: 0px 30px;}
+#logofooterA{width: 150px; height: 50px; }
+#logofooterG{width: 150px; height: 60px;}
+
+#footerDerecha{padding-left: 1050px; margin-top: -180px; }
+#footerDerecha ul{list-style: none; margin: 0px; padding: 0px;}
+#footerDerecha ul li{  float: left;padding: 0px 30px;}
+#redes{width: 60px; height: 50px;}
+
+.filtro{display: none;}
+
+
+
+

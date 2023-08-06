@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styleLog-Reg.css">
+</head>
+
+<body>
+    <section class="formulario">
+
+        <form action="/home" method="get" class="form" enctype="multipart/form-data">
+            <div class="primer__parte">
+                <div class="titulo__form">
+                    <h2>Crea tu cuenta : </h2>
+                </div>
+                <div class="datos__personales todos__divs">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="datos__personales todos__divs">
+                    <label for="user">Nombre de Usuario</label>
+                    <input type="text" id="user" name="user" required>
+                </div>
+                <div class="datos__personales  todos__divs">
+                    <label for="contraseña">Introduzca una contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña" required>
+                </div>
+                <div class="datos__personales todos__divs">
+                    <label for="confirmar__contraseña">Confirmar contraseña</label>
+                    <input type="password" name="confirmar__contraseña" id="confirmar__contraseña" required>
+                </div>
+            </div>
+            <div class="segunda__parte">
+                <div class="datos__personales todos__divs">
+                    <label for="fecha__nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" name="fecha__nacimiento" id="fecha__nacimiento" required>
+                </div>
+
+
+
+                <div class="foto__user todos__divs">
+                    <label>Selecciona una foto de usuario:</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                </div>
+
+                <div class="btns">
+                    <input type="submit" value="Registrarse" class="input__btn">
+                    <input type="reset" value="Borrar" class="input__btn">
+                </div>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
