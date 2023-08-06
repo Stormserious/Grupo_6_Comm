@@ -1,0 +1,169 @@
+/* FORMULARIO REGISTER */
+body {
+    background: rgba(189, 90, 90, 1);
+    background: -moz-linear-gradient(left, rgba(189, 90, 90, 1) 0%, rgba(101, 124, 191, 1) 41%, rgba(189, 73, 189, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(189, 90, 90, 1)), color-stop(41%, rgba(101, 124, 191, 1)), color-stop(100%, rgba(189, 73, 189, 1)));
+    background: -webkit-linear-gradient(left, rgba(189, 90, 90, 1) 0%, rgba(101, 124, 191, 1) 41%, rgba(189, 73, 189, 1) 100%);
+    background: -o-linear-gradient(left, rgba(189, 90, 90, 1) 0%, rgba(101, 124, 191, 1) 41%, rgba(189, 73, 189, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(189, 90, 90, 1) 0%, rgba(101, 124, 191, 1) 41%, rgba(189, 73, 189, 1) 100%);
+    background: linear-gradient(to right, rgba(189, 90, 90, 1) 0%, rgba(101, 124, 191, 1) 41%, rgba(189, 73, 189, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bd5a5a', endColorstr='#bd49bd', GradientType=1);
+}
+
+.formulario {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.titulo__form {
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 20px;
+}
+
+.formulario .form {
+
+
+    display: flex;
+    flex-direction: row;
+    background-color: #ced2cf;
+    border-radius: 15px;
+    width: 800px
+}
+
+.form .primer__parte {
+    width: 400px;
+
+}
+
+.form .segunda__parte {
+    width: 400px;
+    margin-top: 51px;
+}
+
+.todos__divs {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+
+.segunda__parte .todos__divs .foto__user {}
+
+.todos__divs label {
+    font-size: 20px;
+}
+
+.todos__divs input {
+    height: 25px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.todos__divs input:focus {
+    outline: none;
+}
+
+.datos__personales label {
+    padding-bottom: 10px;
+}
+
+.foto__user {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.foto__user label {
+    padding-bottom: 10px;
+
+}
+
+.foto__user input {
+    font-size: 12px;
+}
+
+.formulario .btns {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario .btns input {
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+    padding: 16px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    ;
+}
+
+.formulario .btns input:hover {
+    background-color: rgb(18, 47, 174);
+}
+
+/* FORMULARIO LOG IN */
+  .formulario__dos{ 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.login-form{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ced2cf;
+    border-radius: 15px;
+    width: 380px;
+    align-items: center;
+   
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 90%;
+}
+.form-group label{
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.form-group input{
+ height: 25px;
+ width: 100%;
+ border-radius: 8px;
+ border: none;
+ font-size: 16px; 
+}
+.form-group input:focus {
+    outline: none;
+  }
+.formulario__dos .btns input{
+    background-color: rgb(0, 0, 0);
+    padding: 16px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color:white ;
+}
+.btns input:hover{
+    background-color: rgb(18, 47, 174);
+}
