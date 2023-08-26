@@ -3,13 +3,13 @@ const path = require("path")
 
 const mainController = {
     renderHome :(req, res) => {
-        res.sendFile(path.resolve(__dirname, '../views/home.html'))
+        res.render("home")
     },
     renderLogin: (req,res)=>{
-        res.sendFile(path.resolve(__dirname, '../views/login.html'))
+        res.render("login")
     },
     renderRegister: (req,res)=>{
-        res.sendFile(path.resolve(__dirname, '../views/register.html'))
+        res.render("register")
     }
 }
     
