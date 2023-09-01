@@ -10,6 +10,9 @@ const mainController = {
     },
     renderRegister: (req,res)=>{
         res.render("register")
+    },
+    renderDetalle : (req,res)=>{
+        res.render("productDetail")
     }
 }
     

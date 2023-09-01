@@ -10,83 +10,112 @@
 
 <body>
     <%- include("./partials/header") %>
- 
-    <section id="banner">
-        <img id="imgbanner" src="img/sentado.gif">
-    </section>
 
-    <section id="generos">
-        <input type="text" name="buscador" id="buscador" placeholder="¿Que deseas buscar?">
-        <h3>Géneros</h3>
-        <ul id="box-search">
-            <li class="articulo"><a class="links" href="#">Accion</a></li>
-            <li class="articulo"><a class="links" href="#">Aventura</a></li>
-            <li class="articulo"><a class="links" href="#">Gratis</a></li>
-            <li class="articulo"><a class="links" href="#">Carreras</a></li>
-            <li class="articulo"><a class="links" href="#">Simulacion</a></li>
-            <li class="articulo"><a class="links" href="#">Cooperativo</a></li>
-            <li class="articulo"><a class="links" href="#">Estrategia</a></li>
-            <li class="articulo"><a class="links" href="#">Deportes</a></li>
-            <li class="articulo"><a class="links" href="#">Lucha</a></li>
-            <li class="articulo"><a class="links" href="#">Terror</a></li>
-            <li class="articulo"><a class="links" href="#">Rv</a></li>
-            <li class="articulo"><a class="links" href="#">Anime</a></li>
-            <li class="articulo"><a class="links" href="#">Mundo Abierto</a></li>
+        <section id="banner">
+            <img id="imgbanner" src="img/sentado.gif">
+        </section>
+
+        <section id="generos">
+            <input type="text" name="buscador" id="buscador" placeholder="¿Que deseas buscar?">
+            <h3>Géneros</h3>
+            <ul id="box-search">
+                <li class="articulo"><a class="links" href="#">Accion</a></li>
+                <li class="articulo"><a class="links" href="#">Aventura</a></li>
+                <li class="articulo"><a class="links" href="#">Gratis</a></li>
+                <li class="articulo"><a class="links" href="#">Carreras</a></li>
+                <li class="articulo"><a class="links" href="#">Simulacion</a></li>
+                <li class="articulo"><a class="links" href="#">Cooperativo</a></li>
+                <li class="articulo"><a class="links" href="#">Estrategia</a></li>
+                <li class="articulo"><a class="links" href="#">Deportes</a></li>
+                <li class="articulo"><a class="links" href="#">Lucha</a></li>
+                <li class="articulo"><a class="links" href="#">Terror</a></li>
+                <li class="articulo"><a class="links" href="#">Rv</a></li>
+                <li class="articulo"><a class="links" href="#">Anime</a></li>
+                <li class="articulo"><a class="links" href="#">Mundo Abierto</a></li>
 
 
-        </ul>
+            </ul>
 
-    </section>
-   
+        </section>
 
-    <section id="juego1">
-        <ul id="box-search">
-            <li ><img id="imgjuego" src="img/dayz.avif"></li>
-            <li class="articulo" ><h2>Accion</h2></li>
-            <li><h2>DayZ - Standalone</h2></li>
-            <li><h2>$1500</h2></li>
-        </ul>
-    </section>
 
-    <section id="juego2">
-        <ul id="box-search">
-            <li ><img id="imgjuego" src="img/arma3.webp"></li>
-            <li class="articulo"><h2>Accion</h2></li>
-            <li><h2>Arma 3 </h2></li>
-            <li><h2>$1500</h2></li>
-        </ul>
-    </section>
+        <section id="juego1">
+            <ul id="box-search">
+                <a href="/detalle">
+                    <li><img id="imgjuego" src="img/dayz.avif"> </li>
+                    <li class="articulo">
+                        <h2>Accion</h2>
+                    </li>
+                    <li>
+                        <h2>DayZ - Standalone</h2>
+                    </li>
+                    <li>
+                        <h2>$1500</h2>
+                    </li>
+                </a>
+            </ul>
+        </section>
 
-    <section id="juego3">
-        <ul id="box-search">
-            <li ><img id="imgjuegoA" src="img/ColdWar.webp"></li>
-            <li class="articulo"><h2>Accion</h2></li>
-            <li><h2>CoD - Cold War</h2></li>
-            <li><h2>$10000</h2></li>
-        </ul>
-    </section>
+        <section id="juego2">
+            <ul id="box-search">
+                <li><img id="imgjuego" src="img/arma3.webp"></li>
+                <li class="articulo">
+                    <h2>Accion</h2>
+                </li>
+                <li>
+                    <h2>Arma 3 </h2>
+                </li>
+                <li>
+                    <h2>$1500</h2>
+                </li>
+            </ul>
+        </section>
 
-    <section id="juego4">
-        <ul id="box-search">
-            <li ><img id="imgjuegoB" src="img/BattlefieldV.jpg"></li>
-            <li class="articulo"><h2>Accion </h2></li>
-            <li><h2>Battlefield V </h2></li>
-            <li><h2>$20000 </h2></li>
-        </ul>
-    </section>
+        <section id="juego3">
+            <ul id="box-search">
+                <li><img id="imgjuegoA" src="img/ColdWar.webp"></li>
+                <li class="articulo">
+                    <h2>Accion</h2>
+                </li>
+                <li>
+                    <h2>CoD - Cold War</h2>
+                </li>
+                <li>
+                    <h2>$10000</h2>
+                </li>
+            </ul>
+        </section>
 
-    <section id="pagos">
-        <ul>
-            <li><img id="logos" src="img/visa.png"></li>
-            <li><img id="logos" src="img/mastercard.png"></li>
-            <li><img id="logoM" src="img/mercadoPago.webp"></li>
-            <li><h3>Metodos de pago</h3></li>
-        </ul>
+        <section id="juego4">
+            <ul id="box-search">
+                <li><img id="imgjuegoB" src="img/BattlefieldV.jpg"></li>
+                <li class="articulo">
+                    <h2>Accion </h2>
+                </li>
+                <li>
+                    <h2>Battlefield V </h2>
+                </li>
+                <li>
+                    <h2>$20000 </h2>
+                </li>
+            </ul>
+        </section>
 
-    </section>
-    <%- include("./partials/footer") %>
-    
-    <script src="sc/script.js"></script>
+        <section id="pagos">
+            <ul>
+                <li><img id="logos" src="img/visa.png"></li>
+                <li><img id="logos" src="img/mastercard.png"></li>
+                <li><img id="logoM" src="img/mercadoPago.webp"></li>
+                <li>
+                    <h3>Metodos de pago</h3>
+                </li>
+            </ul>
+
+        </section>
+        <%- include("./partials/footer") %>
+
+            <script src="sc/script.js"></script>
 
 </body>
+
 </html>
