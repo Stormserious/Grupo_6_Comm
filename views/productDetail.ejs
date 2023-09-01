@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styleHome.css">
+</head>
+
+<body>
+    <%- include("./partials/header") %>
+
+        <section class="detalle__product">
+            <div class="nombre__product">
+                <h2>DAY Z</h2>
+            </div>
+            <div class="imagen__descripcion">
+                <div class="product__detail">
+                    <img src="/img/dayz.avif" alt="">
+
+                </div>
+                <div class="descripcion__btns">
+                    <article>
+                        <div class="precio__btn">
+                            <p>$$$</p>
+
+                            <b>
+                                %% OFF
+                            </b>
+                            <b>
+                               total price$
+                            </b>
+                            
+                            <form action="/home/delete/" method="POST">
+                                <a href="" class="button"><button >COMPRAR AHORA</button></a>
+                                <button type="submit" class="button">ELIMINAR</button>
+                            </form>
+                        </div>
+                        <div class="descripcion">
+                            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, omnis. Itaque eaque
+                                commodi
+                                quo minus officiis unde sed dolor eius quod mollitia, cumque nam quia dolorum? Omnis
+                                neque
+                                asperiores eligendi.
+                            </h3>
+                        </div>
+                       
+
+
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <%- include("./partials/footer") %>
+</body>
+
+</html>
