@@ -1,0 +1,197 @@
+.paleta{color:#251355
+#a600ff #ffcc00 #abcbf1 #2d2d2d}
+    *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body{
+        background-color: #070213;
+        margin: 0px
+    }
+    #cabezera{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        color:white;
+    }
+    #cabezera p{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #cabezera a{
+        text-decoration: none;
+        color:white;
+        font-size: 17px;
+        margin: 0;
+        padding:0
+    }
+    header img{
+        width: 17vw;
+        padding: 20px
+    }
+    header a img{
+        width: 3vw;
+    }
+    #menu {
+        background-color: #ffcc00;
+        width: 100%;
+    }
+    #menu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding:0
+    }
+    #menu ul li{
+        list-style: none;
+        padding: 10px;
+
+    }
+    #menu ul li a{
+        text-decoration: none;  
+        color: #a600ff;
+        font-family: "Bree Serif", serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    #imgbanner img{
+        width:100%;
+    }
+    main {
+        background-color:#abcbf1;
+        width: 60vw;
+        border-radius: 10px;
+        padding:0 10px;
+        margin: 7% 20%;
+
+    }
+    main h2{
+        margin:auto;
+        padding:5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    main nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    form{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .juego1, .juego2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:auto;
+        padding: 5px;
+        align-items: center;
+        width: 50vw;
+        border: solid 1px white;
+    }
+    section div{
+        display:flex;
+        align-items: center;
+    }
+    section div p{
+        margin: 10px
+    }
+    .juego2 .precio {
+        margin-left:70px
+    }
+    .imgjuego{
+        width:5vw;
+    }
+    section form button{
+        margin: 10px;
+        padding:5px;
+        font-size: 14px;
+        background-color: red;
+        border: solid 1px red;
+    }
+    .botones {
+        margin-top: 20px;
+    }
+    form button{
+        margin: 10px;
+        padding:5px;
+        font-size: 16px;
+        text-decoration: none;
+        color:white;
+        background-color: #a600ff;
+        border-radius: 4px;
+        border:solid 1px #a600ff
+    }
+    form button a{
+        text-decoration: none;
+        color:white;
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+    }
+    #pieDePagina{
+        display: flex;
+        background: linear-gradient(to right, #251355, #a600ff, #ffcc00, #abcbf1);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    footer .barra{
+        flex-direction: row;
+        display:flex;
+        justify-content: space-around;
+    }
+    .pago p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .pago ul{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: space-around;
+        align-items: center;
+    }
+    footer section ul{
+        text-decoration: none;
+        list-style: none;
+        padding: 0px;
+    }
+    .links{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    }
+    .contacto li{
+        display: flex;
+        margin: 6px;
+        flex-direction: column;
+    }
+    #redes{
+        width: 40px;
+    }
+    .barra section p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: #251355;
+        font-size: 20px;
+    }
+    .redess{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    }
+    .redess li{
+        margin: 6px
+    }
